@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Agencia de correos</title>
+</head>
+<body>
+    <h2>Crear Grafo</h2>
+    <label for="numVertices">Número de vértices:</label>
+    <input type="number" id="numVertices">
+    <button id="addVertice">Agregar Vértice</button>
+
+    <h2>Agregar Arista</h2>
+    <label for="vertice1">Vértice 1:</label>
+    <input type="text" id="vertice1">
+    <label for="vertice2">Vértice 2:</label>
+    <input type="text" id="vertice2">
+    <label for="pesoArista">Peso de la arista:</label>
+    <input type="number" id="pesoArista">
+    <button id="addArista">Agregar Arista</button>
+
+    <h2>Imprimir Grafo</h2>
+    <button id="botonImprimir">Imprimir Grafo</button>
+    <div id="imprimirGrafo"></div>
+
+    <h2>DFS - Recorrido en Profundidad</h2>
+    <label for="dfsInicio">Vértice de inicio:</label>
+    <input type="text" id="dfsInicio">
+    <button id="iniciarDFS">Iniciar DFS</button>
+    <div id="resultadoDFS"></div>
+
+    <h2>Calcular Ruta Más Corta</h2>
+    <label for="inicio">Inicio:</label>
+    <input type="text" id="inicio">
+    <label for="destino">Destino:</label>
+    <input type="text" id="destino">
+    <button id="calcularRuta">Calcular Ruta Más Corta</button>
+    <div id="resultadoRuta"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
